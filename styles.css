@@ -138,4 +138,32 @@ button {
 }
 
 @media (max-width: 768px) {
+  section {
+    min-width: 375px;
+    margin: 20px;
+  }
+  #containerInput {
+    padding: 1rem 1.5rem;
+  }
+  #containerData {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 1.5rem;
+  }
+  #containerJoin {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #containerNumber {
+    padding: 1rem;
+  }
+  #containerIcon {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  #containerIcon > span {
+    width: 100%;
+  }
 }
